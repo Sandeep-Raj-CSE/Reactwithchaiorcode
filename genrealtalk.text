@@ -1,0 +1,100 @@
+// Talk about React documentation
+
+react.dev
+
+ // tarika
+
+ // basic tarika
+
+ npm - node package manager
+
+ npx - node package executer
+
+
+
+ // dont below  that way because its take time so much  so here we go with vit
+
+ 1. npx create-react-app 01_basicreact 
+
+ 2. npm create vite@latest
+    2.1 ) here dont have Node module so first install this one
+    2.2 ) npm install 
+
+    2.3) for run the pro  npm run dev
+
+
+ // vite or parcel use 
+
+ // web vitas give to permission check the application
+
+ 1. package.json is entry point of any application
+
+ // in package.json check the start and end command what is this then run your proje
+
+
+// start the project 
+
+-- npm run start
+
+
+// 
+
+
+Sure, let's break down the flow and structure of a React project using Vite as the build tool:
+
+1. **Project Initialization:**
+   First, you need to initialize a new React project. You can use npm or yarn to do this. For example:
+   ```
+   npx create-react-app my-react-app
+   cd my-react-app
+   ```
+
+2. **Vite Installation:**
+   You can add Vite to your React project by running:
+   ```
+   npm install --save-dev vite
+   ```
+
+3. **Configuration:**
+   Vite does not require extensive configuration like other build tools. However, you might need to configure it for specific needs. Configuration is typically done in a `vite.config.js` file in the root of your project.
+
+4. **Folder Structure:**
+   The folder structure of a React project using Vite is similar to a typical React project. Here's a basic structure:
+   ```
+   my-react-app/
+   ├── public/
+   │   ├── index.html
+   ├── src/
+   │   ├── components/
+   │   │   ├── App.js
+   │   ├── index.js
+   ├── package.json
+   ├── vite.config.js
+   ├── node_modules/
+   ├── ...
+   ```
+
+5. **Development Flow:**
+   - Run `npm run dev` or `yarn dev` to start the development server.
+   - Vite provides fast HMR (Hot Module Replacement), which means it updates only the components that changed rather than reloading the entire page.
+   - You write your React components in `.js` or `.jsx` files within the `src` directory.
+
+6. **Building for Production:**
+   - To build your React project for production, run `npm run build` or `yarn build`.
+   - Vite optimizes the build process for performance. It uses ES module imports which can result in faster loading times.
+   - The build output will be generated in a `dist` directory by default.
+
+7. **Deployment:**
+   - Once you've built your project, you can deploy the contents of the `dist` directory to your hosting platform.
+
+8. **Additional Features:**
+   - Vite offers various plugins for features like TypeScript support, CSS preprocessing, and more.
+   - You can enhance your development experience by using Vite plugins tailored for React development.
+
+Overall, Vite simplifies the development process by providing a fast, efficient, and modern tooling setup for React projects. It leverages ES module imports and other modern web standards to deliver an optimized development experience.
+
+
+
+// Till lecture 2 above all 
+
+

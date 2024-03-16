@@ -1,0 +1,88 @@
+
+
+
+/*
+
+Sure, let's break down the provided React component step by step:
+
+1. **Import Statements:**
+   ```javascript
+   import { useState } from 'react'
+   import reactLogo from './assets/react.svg'
+   import viteLogo from '/vite.svg'
+   import './App.css'
+   ```
+
+   - `useState`: This import statement is used to import the `useState` hook from the React library.
+   - `reactLogo`: This imports an SVG file `react.svg` from the `./assets` directory.
+   - `viteLogo`: This imports an SVG file `vite.svg` from the root directory.
+   - `./App.css`: This imports a CSS file `App.css` to style the component.
+
+2. **Functional Component Definition:**
+   ```javascript
+   function App() {
+      // Function body
+   }
+   ```
+
+   This defines a functional component named `App`.
+
+3. **State Management using `useState`:**
+   ```javascript
+   let [counter, setCounter] = useState(15)
+   ```
+
+   - `counter`: This variable holds the current value of the counter.
+   - `setCounter`: This function is used to update the value of the `counter` variable. It's destructured from the `useState` hook, which initializes the state with a value of `15`.
+
+4. **Event Handling Functions:**
+   ```javascript
+   const addvalue = () => {
+      // Function body
+   }
+
+   const subvalue = () => {
+      // Function body
+   }
+   ```
+
+   - `addvalue`: This function increments the `counter` value by 1 if it's less than 30.
+   - `subvalue`: This function decrements the `counter` value by 1 if it's greater than 0.
+
+5. **JSX Rendering:**
+   ```javascript
+   return (
+      <>
+         {/* JSX elements */}
+      </>
+   )
+   ```
+
+   This block returns JSX elements to render on the page.
+
+6. **JSX Elements:**
+   ```jsx
+   <>
+      <h1>Chai or react</h1>
+      <h2>Counter value : {counter}</h2>
+
+      <button onClick={addvalue}>Add Value {counter}</button>
+      <br />
+
+      <button onClick={subvalue}>Subtarct Value {counter}</button>
+   </>
+   ```
+
+   - `<h1>`, `<h2>`: These elements display headings.
+   - `<button>`: These elements render buttons. Clicking on these buttons triggers the `addvalue` and `subvalue` functions respectively.
+
+7. **Export:**
+   ```javascript
+   export default App
+   ```
+
+   This exports the `App` component as the default export from this module.
+
+In summary, this React component (`App`) defines a simple counter application. It maintains a counter state using the `useState` hook and provides buttons to increment and decrement the counter value. The component renders JSX elements to display the counter value and buttons on the webpage.
+
+*/
